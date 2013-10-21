@@ -164,6 +164,7 @@
     <Content Include="imagenes\verde.png" />
     <Content Include="InformacionPersonal.aspx" />
     <Content Include="IniciarSesion.aspx" />
+    <Content Include="Reporte.aspx" />
     <Content Include="Styles\estilo.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="ModificarHorario.aspx" />
@@ -260,6 +261,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reporte.aspx.cs">
+      <DependentUpon>Reporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reporte.aspx.designer.cs">
+      <DependentUpon>Reporte.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

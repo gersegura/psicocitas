@@ -27,8 +27,8 @@ namespace ITCR.PsicoCitas.Interfaz
             /*host = @"Danilo_PC\DASM";
             bd = "PsicoCitas_TEC";
             cadena = "Data Source=" + host + ";Initial Catalog=" + bd + ";Integrated Security=True";*/
-            cadena = "workstation id=PsicoCitasTEC.mssql.somee.com;packet size=4096;user id=psicocitas_SQLLogin_1;pwd=bcbfq3ebio;data source=PsicoCitasTEC.mssql.somee.com;persist security info=False;initial catalog=PsicoCitasTEC";
-           //cadena = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=PsicoCitas_TEC;Data Source=localhost";
+           // cadena = "workstation id=PsicoCitasTEC.mssql.somee.com;packet size=4096;user id=psicocitas_SQLLogin_1;pwd=bcbfq3ebio;data source=PsicoCitasTEC.mssql.somee.com;persist security info=False;initial catalog=PsicoCitasTEC";
+           cadena = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=PsicoCitas_TEC;Data Source=localhost";
 		}
 
 
@@ -146,7 +146,32 @@ namespace ITCR.PsicoCitas.Interfaz
         }
 
 
+        public DataSet reporte(String reporte, String fechainicio, String fechafin)
+        {
+            SqlConnection conn = new SqlConnection(cadena);
 
+            string sp = "storedprocedure";
+            if (reporte.Equals("Reporte 1"))
+            { sp = "Citasatendidas_Por_Asesor"; }
+
+            if (reporte.Equals("Reporte 2"))
+            { sp = "Solicitudes_Por_Carrera"; }
+
+
+            SqlCommand cmd = new SqlCommand(sp, conn);
+            cmd.Parameters.Add("@fecha_inicio", SqlDbType.Date);
+            cmd.Parameters["@fecha_inicio"].Value = fechainicio;
+            cmd.Parameters.Add("@fecha_fin", SqlDbType.Date);
+            cmd.Parameters["@fecha_fin"].Value = fechafin;
+
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter da = new SqlDataAdapter();
+            da.SelectCommand = cmd;
+            DataSet ds = new DataSet();
+            da.Fill(ds, "reporte");
+            return ds;
+
+        }
 
 
 

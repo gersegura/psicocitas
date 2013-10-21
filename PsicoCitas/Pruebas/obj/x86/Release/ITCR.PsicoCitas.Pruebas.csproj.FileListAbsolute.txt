@@ -1,0 +1,9 @@
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\Pruebas\bin\Release\Pruebas.exe
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\Pruebas\bin\Release\Pruebas.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\Pruebas\bin\Release\ITCR.PsicoCitas.Datos.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\Pruebas\bin\Release\ITCR.PsicoCitas.Negocios.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\Pruebas\bin\Release\ITCR.PsicoCitas.Datos.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\Pruebas\bin\Release\ITCR.PsicoCitas.Negocios.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\Pruebas\obj\x86\Release\ITCR.PsicoCitas.Pruebas.csprojResolveAssemblyReference.cache
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\Pruebas\obj\x86\Release\Pruebas.exe
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\Pruebas\obj\x86\Release\Pruebas.pdb

@@ -1,0 +1,13 @@
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Interfaz.dll
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Interfaz.pdb
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Interfaz\obj\Release\ITCR.PsicoCitas.Interfaz.dll
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Interfaz\obj\Release\ITCR.PsicoCitas.Interfaz.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Interfaz.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Interfaz.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Negocios.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Datos.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Negocios.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Datos.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Interfaz\obj\Release\ITCR.PsicoCitas.Interfaz.csprojResolveAssemblyReference.cache
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Interfaz\obj\Release\ITCR.PsicoCitas.Interfaz.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Interfaz\obj\Release\ITCR.PsicoCitas.Interfaz.pdb

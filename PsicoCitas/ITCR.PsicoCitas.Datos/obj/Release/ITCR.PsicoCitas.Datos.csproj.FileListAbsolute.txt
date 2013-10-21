@@ -1,0 +1,8 @@
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Release\ITCR.PsicoCitas.Datos.dll
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Release\ITCR.PsicoCitas.Datos.pdb
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Release\ITCR.PsicoCitas.Datos.dll
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Release\ITCR.PsicoCitas.Datos.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Release\ITCR.PsicoCitas.Datos.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Release\ITCR.PsicoCitas.Datos.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Release\ITCR.PsicoCitas.Datos.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Release\ITCR.PsicoCitas.Datos.pdb

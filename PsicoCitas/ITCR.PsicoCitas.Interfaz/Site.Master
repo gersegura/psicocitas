@@ -1,0 +1,225 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" 
+    Inherits="ITCR.NamespaceAplicacion.Interfaz.SiteMaster" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+	<title>PsicoCitas TEC</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="Psicologia, Educacion, Asesoria, Citas, DOP" />
+    <meta name="description" content="Departamento de Orientacion y Psicologia del Tecnologico de Costa Rica, brinda una herramienta digital para agilizar el proceso de Citas para los estudiantes."/>
+    <meta name="author" content=""/>
+    <style type="text/css">
+        center, a[href*=somee]
+        {
+            display:none;
+        }
+    </style>
+        <!-- Bootstrap core CSS -->
+        <script type="text/javascript" src="bootstrap/assets/js/holder.js"></script>
+        <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+        <link href="bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="bootstrap/assets/css/pygments-manni.css" rel="stylesheet"/>
+        <script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+        <link href="bootstrap/examples/navbar-fixed-top/navbar-fixed-top.css" rel="stylesheet">
+        
+
+        <!-- uikit 
+        <script type="text/javascript" src="uikit/css/uikit.almost-flat.css">        </script>
+        <script type="text/javascript" src="uikit/css/uikit.almost-flat.min.css">        </script>
+        <script type="text/javascript" src="uikit/css/uikit.css">        </script>
+        <script type="text/javascript" src="uikit/css/uikit.gradient.css">        </script>
+        <script type="text/javascript" src="uikit/css/uikit.gradient.min.css">        </script>
+        <script type="text/javascript" src="uikit/css/uikit.min.css">        </script>
+        <script type="text/javascript" src="uikit/js/uikit.js">      </script>
+        <script type="text/javascript" src="uikit/js/uikit.min.js">   </script>-->
+
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="bootstrap/assets/js/html5shiv.js"></script>
+        <script src="bootstrap/assets/js/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicons 
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" 
+            href="imagenes/SCT.png"/>
+            
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" 
+            href="IMAGENES/SCT.png"/>
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" 
+            href="bootstrap/assets/ico/apple-touch-icon-72-precomposed.png"/>
+        <link rel="apple-touch-icon-precomposed" 
+            href="bootstrap/assets/ico/apple-touch-icon-57-precomposed.png"/>
+        <link rel="shortcut icon" 
+            href="bootstrap/assets/ico/favicon.png"/>-->
+
+        <!-- Place anything custom after this. -->
+
+	<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+
+<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="Home.aspx">PsicoCitas-TEC</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="home.aspx">Principal</a></li>
+            <li><a data-toggle="modal" href="#about">Acerca de</a></li>
+            <li><a data-toggle="modal" href="#contactenos">Contactos</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men&uacute;<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="Home.aspx" >Paginal Principal</a></li>
+                <li><a href="ModificarHorario.aspx" >Ver Horario</a></li>
+                <li><a href="vtnSolicitarCita.aspx">Solicitar Cita</a></li>
+                <li><a href="InformacionPersonal.aspx" >Informaci&oacute;n Estudiante</a></li>
+                <li><a href="vtnSolicitudesDeCitas.aspx" >Asignar Asesor</a></li>
+                <li><a href="CitasPorPsicologo.aspx" >Asignar Cita</a></li>
+                <li><a href="AdministrarDocumentos.aspx" >Adiministrar Documentos</a></li>
+                <li><a href="AdministrarDocumentosEstudiantes.aspx" >Descargar Documentos</a></li>
+                <li><a href="#GerarReporte" >Generar Reporte</a></li>
+                <li><a href="VtnEnviarConsultas.aspx" >Enviar Dudas o Conultas</a></li>
+                <li><a href="VerDudasConsultas.aspx" >Ver Dudas</a></li>
+              </ul>
+            </li>
+            <li><a href="IniciarSesion.aspx">Iniciar Sesi&oacute;n</a></li>
+            <li class="active"><a href="#">Salir</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <form id="Form1" runat="server" class="mostrar">
+        <div class="row ">
+            <div class="col-md-2 ">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">Men&uacute;</a>
+                    <a href="Home.aspx" class="list-group-item  ">Paginal Principal</a>
+                    <a href="ModificarHorario.aspx" class="list-group-item">Ver Horario</a>
+                    <a href="vtnSolicitarCita.aspx" class="list-group-item">Solicitar Cita</a>
+                    <a href="InformacionPersonal.aspx" class="list-group-item">Informaci&oacute;n Estudiante</a>
+                    <a href="vtnSolicitudesDeCitas.aspx" class="list-group-item">Asignar Asesor</a>
+                    <a href="CitasPorPsicologo.aspx" class="list-group-item">Asignar Cita</a>
+                    <a href="AdministrarDocumentos.aspx" class="list-group-item">Adiministrar Documentos</a>
+                    <a href="AdministrarDocumentosEstudiantes.aspx" class="list-group-item">Descargar Documentos</a>
+                    <a href="#" class="list-group-item">Generar Reporte</a>
+                    <a href="VtnEnviarConsultas.aspx" class="list-group-item">Enviar Dudas o Conultas</a>
+                    <a href="VerDudasConsultas.aspx" class="list-group-item">Ver Dudas</a>
+                </div>
+            </div>
+            <div class="col-md-10 ">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+			    </asp:ContentPlaceHolder>
+            </div>
+        </div>
+	</form>
+
+
+
+
+
+    <!-- Modal -->
+  <div class="modal fade" id="contactenos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content ">
+        <div class="modal-header ">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Desarrolladores</h4>
+        </div>
+        <div class="modal-body ">
+            <h3>Danilo S&aacute;nchez Monge</h3>
+            <h4>Correo: </h4> <p> dasmdanilo@gmail.com</p>
+            <br />
+            <h3>Antonio Garc&iacute;a Boza</h3>
+            <h4>Correo: </h4><p> jogarboza20@gmail.com</p>
+            <br />
+            <h3>German Segura Soto</h3>
+            <h4>Correo: </h4><p> gersegurasoto@gmail.com</p>
+        </div>
+        <div class="modal-footer ">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+    <!-- modal -->
+
+
+
+    <!-- Modal -->
+  <div class="modal fade " id="Abandonar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content ">
+        <div class="modal-header ">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Salir</h4>
+        </div>
+        <div class="modal-body ">
+            <h2>Salir, Est&aacute; seguro?</h2>
+        </div>
+        <div class="modal-footer ">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Si</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+    <!-- modal -->
+
+    <!-- modal -->
+
+    <!-- Modal -->
+  <div class="modal fade " id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content ">
+        <div class="modal-header ">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title ">Desarrolladores</h4>
+        </div>
+        <div class="modal-body ">
+            <p>Trabajo Realizado para el Departamento de Orientaci&oacute;n y Psicolog&iacute;a de Tecnol&oacute;gico de Costa Rica</p>
+            <p>Elaborado por tres estudiantes de ingeniería en computaci&oacute;n, para el curso de Proyecto. </p>
+            <p>Autores:</p>
+            <p>Danilo S&aacute;nchez Monge</p>
+            <p>Antonio Garc&iacute;a Boza</p>
+            <p>German Segura Soto</p>
+            <br />
+            <p>Fecha de Elaboraci&oacute;n: Segundo Semestre del 2013</p>
+        </div>
+        <div class="modal-footer ">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+    <!-- modal -->
+
+
+
+
+            <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="bootstrap/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/assets/js/holder.js"></script>
+
+
+</body>
+</html>

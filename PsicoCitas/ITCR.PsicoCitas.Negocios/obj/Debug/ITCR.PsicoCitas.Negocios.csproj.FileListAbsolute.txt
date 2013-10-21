@@ -1,0 +1,29 @@
+R:\Mis documentos\trabajos\ITCR\Semestre-II-2013\Proyecto\ITCR.PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.dll
+R:\Mis documentos\trabajos\ITCR\Semestre-II-2013\Proyecto\ITCR.PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.pdb
+R:\Mis documentos\trabajos\ITCR\Semestre-II-2013\Proyecto\ITCR.PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.dll
+R:\Mis documentos\trabajos\ITCR\Semestre-II-2013\Proyecto\ITCR.PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.pdb
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.dll
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.pdb
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.dll
+E:\Users\GE®MAN\Desktop\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.pdb
+C:\Users\Jose Antonio Garcia\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.dll
+C:\Users\Jose Antonio Garcia\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.pdb
+C:\Users\Jose Antonio Garcia\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jose Antonio Garcia\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.dll
+C:\Users\Jose Antonio Garcia\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.pdb
+E:\Users\GE®MAN\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.dll
+E:\Users\GE®MAN\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.pdb
+E:\Users\GE®MAN\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Datos.dll
+E:\Users\GE®MAN\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Datos.pdb
+E:\Users\GE®MAN\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.csprojResolveAssemblyReference.cache
+E:\Users\GE®MAN\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.dll
+E:\Users\GE®MAN\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.pdb
+C:\Users\Jose Antonio Garcia\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Datos.dll
+C:\Users\Jose Antonio Garcia\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Datos.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Negocios.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Datos.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\bin\Debug\ITCR.PsicoCitas.Datos.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.csprojResolveAssemblyReference.cache
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Negocios\obj\Debug\ITCR.PsicoCitas.Negocios.pdb

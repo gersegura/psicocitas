@@ -51,3 +51,12 @@ C:\Users\Jose Antonio Garcia\Desktop\PsicoCitas dropbox\ITCR.PsicoCitas.Interfaz
 C:\Users\Jose Antonio Garcia\Desktop\PsicoCitas dropbox\ITCR.PsicoCitas.Interfaz\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Jose Antonio Garcia\Desktop\PsicoCitas dropbox\ITCR.PsicoCitas.Interfaz\obj\Debug\ITCR.PsicoCitas.Interfaz.dll
 C:\Users\Jose Antonio Garcia\Desktop\PsicoCitas dropbox\ITCR.PsicoCitas.Interfaz\obj\Debug\ITCR.PsicoCitas.Interfaz.pdb
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Interfaz.dll
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Interfaz.pdb
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Negocios.dll
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Datos.dll
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Negocios.pdb
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Interfaz\bin\ITCR.PsicoCitas.Datos.pdb
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Interfaz\obj\Debug\ITCR.PsicoCitas.Interfaz.dll
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Interfaz\obj\Debug\ITCR.PsicoCitas.Interfaz.pdb
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Interfaz\obj\Debug\ITCR.PsicoCitas.Interfaz.csprojResolveAssemblyReference.cache

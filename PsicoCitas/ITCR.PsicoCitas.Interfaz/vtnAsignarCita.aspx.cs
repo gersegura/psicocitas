@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using ITCR.PsicoCitas.Negocios;
 using System.Web.UI.WebControls;
+using System.Net.Mail;
 
 namespace ITCR.PsicoCitas.Interfaz
 {
@@ -33,16 +34,27 @@ namespace ITCR.PsicoCitas.Interfaz
 
 
 
+            
+
+
+
+
+
+
+
                 this.Solicitud = PreviousPage.Solicitud_Cita;
 
                 textoNomEstudiante.Text = Solicitud.NombreEstudiante;
                 carnet.Text = Solicitud.CarnetEstudiante;
-                // carrera.Text=solicitud.Carrera; Falta meter atributo en la clase solicitud
-                fecha_solicitud.Text = Solicitud.DiaSolicitud;
+                carrera.Text=Solicitud.CarreraEstudiante;
+                fecha_solicitud.Text = Solicitud.FechaSolicitud.ToString();
                 Motivo.Text = Solicitud.MotivoCita;
                 Urgencia.Text = Solicitud.Urgencia.ToString();
                 Nombre_previo.Text = Solicitud.NombrePsicologo;
-                Fecha_previo.Text = Solicitud.FechaPrevia;
+               
+                if (Solicitud.FechaPrevia.Equals("01/01/1900 0:00:00"))
+                { Fecha_previo.Text = ""; }
+                else{ Fecha_previo.Text = Solicitud.FechaPrevia;}
                 Observacion.Text = Solicitud.Observacion;
 
              
@@ -86,7 +98,19 @@ namespace ITCR.PsicoCitas.Interfaz
             bool sirvio = ab.AsignarHorarioCita(Solicitud.IdSolicitud,fecha,horainicio,horafinal);
 
             if (sirvio)
-            { Response.Redirect("~/CitasPorPsicologo.aspx"); }
+            {
+
+                AsignarCita correo = new AsignarCita();
+
+                correo.enviarCorreo(fecha, horainicio, horafinal, Solicitud.Correo);
+
+                
+                Response.Redirect("~/CitasPorPsicologo.aspx"); 
+            
+            
+            
+            
+            }
 
             else { Response.Write("Ha ocurrido un error"); }
         }

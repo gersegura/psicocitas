@@ -41,8 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoBase.cs" />
-    <Compile Include="AsignarCita.cs" />
     <Compile Include="nInformacionEstudiante.cs" />
+    <Compile Include="nIniciarSesion.cs" />
     <Compile Include="nVerDudasConsultas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolicitudCita.cs" />

@@ -93,10 +93,9 @@
                 <li><a href="CitasPorPsicologo.aspx" >Asignar Cita</a></li>
                 <li><a href="AdministrarDocumentos.aspx" >Adiministrar Documentos</a></li>
                 <li><a href="AdministrarDocumentosEstudiantes.aspx" >Descargar Documentos</a></li>
-                <li><a href="#GerarReporte" >Generar Reporte</a></li>
+                <li><a href="Reporte.aspx" >Generar Reporte</a></li>
                 <li><a href="VtnEnviarConsultas.aspx" >Enviar Dudas o Conultas</a></li>
                 <li><a href="VerDudasConsultas.aspx" >Ver Dudas</a></li>
-                   <li><a href="Reporte.aspx" >Generar Reporte</a></li>
               </ul>
             </li>
             <li><a href="IniciarSesion.aspx">Iniciar Sesi&oacute;n</a></li>
@@ -119,10 +118,9 @@
                     <a href="CitasPorPsicologo.aspx" class="list-group-item">Asignar Cita</a>
                     <a href="AdministrarDocumentos.aspx" class="list-group-item">Adiministrar Documentos</a>
                     <a href="AdministrarDocumentosEstudiantes.aspx" class="list-group-item">Descargar Documentos</a>
-                    <a href="#" class="list-group-item">Generar Reporte</a>
+                    <a href="Reporte.aspx" class="list-group-item">Generar Reporte</a>
                     <a href="VtnEnviarConsultas.aspx" class="list-group-item">Enviar Dudas o Conultas</a>
                     <a href="VerDudasConsultas.aspx" class="list-group-item">Ver Dudas</a>
-                     <a href="Reporte.aspx" class="list-group-item">Generar Reporte</a>
                 </div>
             </div>
             <div class="col-md-10 ">

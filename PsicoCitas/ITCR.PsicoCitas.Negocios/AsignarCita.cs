@@ -14,7 +14,7 @@ namespace ITCR.PsicoCitas.Negocios
         {
 
 
-            String Respuesta = "Fecha:  " + fecha + "\n" + "Hora de Inicio:  " + horainicio + "\n" + "Hora final:  " + horafinal;
+            String respuesta = "Fecha:  " + fecha + "\n" + "Hora de Inicio:  " + horainicio + "\n" + "Hora final:  " + horafinal;
 
             try
             {

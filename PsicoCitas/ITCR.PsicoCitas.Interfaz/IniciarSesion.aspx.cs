@@ -23,10 +23,11 @@ namespace ITCR.PsicoCitas.Interfaz
             {
                 System.Web.HttpContext.Current.Response.Write("<SCRIPT LANGUAGE='JavaScript'>alert('Debe llenar todos los campos.')</SCRIPT>");
             }
-            else {
+            else
+            {
                 nIniciarSesion iniciar = new nIniciarSesion();
                 bool respuesta = iniciar.nLogin(sUser, sPass);
-                if(respuesta)
+                if (respuesta)
                     System.Web.HttpContext.Current.Response.Write("<SCRIPT LANGUAGE='JavaScript'>alert('Correcto')</SCRIPT>");
                 else
                     System.Web.HttpContext.Current.Response.Write("<SCRIPT LANGUAGE='JavaScript'>alert('Clave Incorrecta')</SCRIPT>");

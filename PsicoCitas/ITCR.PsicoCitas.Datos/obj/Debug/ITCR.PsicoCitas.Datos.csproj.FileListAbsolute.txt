@@ -20,8 +20,13 @@ C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Datos\bin
 C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.dll
 C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.pdb
 C:\Users\Danilo\Dropbox\proyecto\Aplicacion\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.csprojResolveAssemblyReference.cache
-C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Debug\ITCR.PsicoCitas.Datos.dll
-C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Debug\ITCR.PsicoCitas.Datos.pdb
-C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.csprojResolveAssemblyReference.cache
-C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.dll
-C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.pdb
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Debug\ITCR.PsicoCitas.Datos.dll
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Debug\ITCR.PsicoCitas.Datos.pdb
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.csprojResolveAssemblyReference.cache
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.dll
+E:\Users\GE®MAN\Desktop\Proyecto\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto - version german 23 50\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Debug\ITCR.PsicoCitas.Datos.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto - version german 23 50\PsicoCitas\ITCR.PsicoCitas.Datos\bin\Debug\ITCR.PsicoCitas.Datos.pdb
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto - version german 23 50\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.csprojResolveAssemblyReference.cache
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto - version german 23 50\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.dll
+C:\Users\Danilo\Dropbox\proyecto\Aplicacion\Proyecto - version german 23 50\PsicoCitas\ITCR.PsicoCitas.Datos\obj\Debug\ITCR.PsicoCitas.Datos.pdb

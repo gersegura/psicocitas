@@ -22,12 +22,39 @@ namespace ITCR.PsicoCitas.Negocios
         private String _horaFin;
         private String _nombreEstudiante;
         private String _carnetEstudiante;
+        private String _carreraEstudiante;
+        private String _correo;
 
         
 
 
+
         public SolicitudCita(DateTime fechaSolicitudP, String motivoCitaP, int urgenciaP, String nombrePsicologoP, String fechapreviaP,
-            int confirmacionP, String observacionP, String diaP, String horaIniP, String horaFinP, String nomEstudianteP, String carnetEstudianteP) 
+          int confirmacionP, String observacionP, String diaP, String horaIniP, String horaFinP, String nomEstudianteP, String carnetEstudianteP)
+        {
+
+
+            this.FechaSolicitud = fechaSolicitudP;
+            this.MotivoCita = motivoCitaP;
+            this.Urgencia = urgenciaP;
+            this.NombrePsicologo = nombrePsicologoP;
+            this.FechaPrevia = fechapreviaP;
+            this.Confirmacion = confirmacionP;
+            this.Observacion = observacionP;
+            this.DiaSolicitud = diaP;
+            this.HoraInicio = horaIniP;
+            this.HoraFin = horaFinP;
+            this._nombreEstudiante = nomEstudianteP;
+            this._carnetEstudiante = carnetEstudianteP;
+          
+        }
+
+
+
+
+
+        public SolicitudCita(DateTime fechaSolicitudP, String motivoCitaP, int urgenciaP, String nombrePsicologoP, String fechapreviaP,
+            int confirmacionP, String observacionP, String diaP, String horaIniP, String horaFinP, String nomEstudianteP, String carnetEstudianteP,String carreraP,String correoP) 
         {
 
             
@@ -43,6 +70,8 @@ namespace ITCR.PsicoCitas.Negocios
             this.HoraFin = horaFinP;
             this._nombreEstudiante = nomEstudianteP;
             this._carnetEstudiante = carnetEstudianteP;
+            this._carreraEstudiante = carreraP;
+            this._correo = correoP;
         }
 
         #region gets y sets
@@ -51,6 +80,19 @@ namespace ITCR.PsicoCitas.Negocios
           get { return _fechaSolicitud; }
           set { _fechaSolicitud = value; }
       }
+
+        public String CarreraEstudiante
+        {
+            get { return _carreraEstudiante; }
+            set { _carreraEstudiante = value; }
+        }
+
+        public String Correo
+        {
+            get { return _correo; }
+            set { _correo = value; }
+        }
+
 
         public int IdSolicitud
       {

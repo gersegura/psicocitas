@@ -5,9 +5,7 @@ CodeBehind="InformacionPersonal.aspx.cs" Inherits="ITCR.PsicoCitas.Interfaz.CU.I
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <title>Informaci&oacute;n Personal</title>
-
 </asp:Content>
-
 
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">

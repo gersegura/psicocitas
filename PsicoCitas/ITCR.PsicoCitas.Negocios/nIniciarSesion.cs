@@ -8,7 +8,8 @@ namespace ITCR.PsicoCitas.Negocios
 {
     public class nIniciarSesion
     {
-        public bool nLogin(string user, string pass){
+        public bool nLogin(string user, string pass)
+        {
             dIniciarSesion id = new dIniciarSesion();
             bool respuesta = id.dLogin(user, pass);
             if (respuesta)

@@ -27,8 +27,8 @@ namespace ITCR.PsicoCitas.Interfaz
             /*host = @"Danilo_PC\DASM";
             bd = "PsicoCitas_TEC";
             cadena = "Data Source=" + host + ";Initial Catalog=" + bd + ";Integrated Security=True";*/
-           // cadena = "workstation id=PsicoCitasTEC.mssql.somee.com;packet size=4096;user id=psicocitas_SQLLogin_1;pwd=bcbfq3ebio;data source=PsicoCitasTEC.mssql.somee.com;persist security info=False;initial catalog=PsicoCitasTEC";
-           cadena = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=PsicoCitas_TEC;Data Source=localhost";
+            cadena = "workstation id=PsicoCitasTEC.mssql.somee.com;packet size=4096;user id=psicocitas_SQLLogin_1;pwd=bcbfq3ebio;data source=PsicoCitasTEC.mssql.somee.com;persist security info=False;initial catalog=PsicoCitasTEC";
+          // cadena = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=PsicoCitas_TEC;Data Source=localhost";
 		}
 
 

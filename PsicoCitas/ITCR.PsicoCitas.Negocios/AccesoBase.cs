@@ -14,8 +14,8 @@ namespace ITCR.PsicoCitas.Negocios
         SqlDataReader rdr;
         public AccesoBase()
         {
-            cnn = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=PsicoCitas_TEC;Data Source=localhost");
-            //cnn = new SqlConnection("workstation id=PsicoCitasTEC.mssql.somee.com;packet size=4096;user id=psicocitas_SQLLogin_1;pwd=bcbfq3ebio;data source=PsicoCitasTEC.mssql.somee.com;persist security info=False;initial catalog=PsicoCitasTEC");
+           // cnn = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=PsicoCitas_TEC;Data Source=localhost");
+            cnn = new SqlConnection("workstation id=PsicoCitasTEC.mssql.somee.com;packet size=4096;user id=psicocitas_SQLLogin_1;pwd=bcbfq3ebio;data source=PsicoCitasTEC.mssql.somee.com;persist security info=False;initial catalog=PsicoCitasTEC");
         }
 
 
@@ -237,10 +237,12 @@ namespace ITCR.PsicoCitas.Negocios
        String _observacion = Convert.ToString(row["Observacion"]);
        String _nombreEstudiante = Convert.ToString(row["Estudiante"]);
        String _carnetEstudiante = Convert.ToString(row["Carnet"]);
+       String _carreraEstudiante = Convert.ToString(row["Carrera"]);
 
+       String _correo = Convert.ToString(row["Correo"]);
      
             
-      SolicitudCita solicitud  = new SolicitudCita(_fechaSolicitud,_motivoCita,_urgencia,_nombrePsicologo,_fechaPrevia,0,_observacion,null,null,null,_nombreEstudiante,_carnetEstudiante);
+      SolicitudCita solicitud  = new SolicitudCita(_fechaSolicitud,_motivoCita,_urgencia,_nombrePsicologo,_fechaPrevia,0,_observacion,null,null,null,_nombreEstudiante,_carnetEstudiante,_carreraEstudiante,_correo);
 
       solicitud.IdSolicitud = id;
 

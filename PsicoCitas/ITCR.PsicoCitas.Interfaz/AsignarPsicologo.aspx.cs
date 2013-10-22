@@ -44,12 +44,15 @@ namespace ITCR.PsicoCitas.Interfaz
              
             textoNomEstudiante.Text = Solicitud.NombreEstudiante;
             carnet.Text = Solicitud.CarnetEstudiante;
-           // carrera.Text=solicitud.Carrera; Falta meter atributo en la clase solicitud
-            fecha_solicitud.Text = Solicitud.DiaSolicitud;
+            carrera.Text = Solicitud.CarreraEstudiante; 
+            fecha_solicitud.Text = Solicitud.FechaSolicitud.ToString();
             Motivo.Text = Solicitud.MotivoCita;
             Urgencia.Text = Solicitud.Urgencia.ToString();
             Nombre_previo.Text = Solicitud.NombrePsicologo;
-            Fecha_previo.Text = Solicitud.FechaPrevia;
+            if (Solicitud.FechaPrevia.Equals("01/01/1900 0:00:00"))
+            { Fecha_previo.Text = ""; }
+            else { Fecha_previo.Text = Solicitud.FechaPrevia; }
+              
             Observacion.Text = Solicitud.Observacion;
 
             if (!IsPostBack)

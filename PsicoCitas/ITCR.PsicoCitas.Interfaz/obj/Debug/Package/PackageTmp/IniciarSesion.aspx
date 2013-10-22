@@ -11,11 +11,12 @@ CodeBehind="IniciarSesion.aspx.cs" Inherits="ITCR.PsicoCitas.Interfaz.IniciarSes
     <div class="container">
       <div class="form-signin">
         <h2 class="form-signin-heading">Inicio de Sesi&oacute;n</h2>
-        <asp:TextBox runat="server" type="text" class="form-control" placeholder="Usuario" autofocus ID="user"/>
-        <asp:TextBox runat="server" type="password" class="form-control" placeholder="Contrase&ntilde;a" ID="pass"/>
-          <asp:Button Text="Iniciar Sesi&oacute;n" runat="server" 
-              class="btn btn-lg btn-primary btn-block" type="submit" ID="iLogin" 
-              onclick="iLogin_Click"/>
+        <input type="text" class="form-control" placeholder="Email address" autofocus>
+        <input type="password" class="form-control" placeholder="Password">
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me">Recordarme
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesi&oacute;n</button>
       </div>
     </div> <!-- /container -->
 </asp:Content>
